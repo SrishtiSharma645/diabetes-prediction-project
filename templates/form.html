@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diabetes Prediction</title>
+    <style>
+        body {
+            background-color: #fff5;
+            background-image: url('https://cdn.glitch.global/ad8d18c2-653a-4e31-b0f8-b301c6e77024/9690530-new-type-2-diabetes-drug-to-regulate.jpg?v=1720688729209');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        h1 {
+            padding: 10px;
+            background-color: #407088;
+            color: white;
+            text-align: center;
+        }
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        td input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        .input-field {
+            background-color: #f9f9f9;
+        }
+        .submit-button {
+            background-color: grey;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            text-align: bottom;
+            margin-top: 20px;
+        }
+        footer a {
+            color: lavendar;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Diabetes Prediction</h1>
+    <form method="POST" action="/predict">
+        <table>
+            <tr>
+                <td>No of pregnancies:</td>
+                <td class="input-field">
+                    <input type="text" name="preg" value="{{Pregnancies}}" placeholder="ranges 0-17">
+                </td>
+            </tr>
+            <tr>
+                <td>Glucose level:</td>
+                <td class="input-field">
+                    <input type="text" name="glu" value="{{Glucose}}" placeholder="ranges 45-200">
+                </td>
+            </tr>
+            <tr>
+                <td>SkinThickness:</td>
+                <td class="input-field">
+                    <input type="text" name="skv" value="{{SkinThickness}}" placeholder="ranges 7-100">
+                </td>
+            </tr>
+            <tr>
+                <td>BMI:</td>
+                <td class="input-field">
+                    <input type="text" name="bmi" value="{{BMI}}" placeholder="ranges 18-67">
+                </td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td class="input-field">
+                    <input type="text" name="age" value="{{Age}}" placeholder="ranges 21-81">
+                </td>
+            </tr>
+          <button >
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Predict Diabetes" class="submit-button">
+                </td>
+            </tr>
+          </button>
+        </table>
+    </form>
+    <br>
+    <center>
+        <div><h3>{{result}}</h3></div>
+    </center>
+    <br>
+    <footer>
+        <nav>
+            <a href="/home"><b>HOME PAGE</b></a><br>
+            <a href="https://www.kaggle.com/datasets/mathchi/diabetes-data-set" target="_blank"><b>DATASET</b></a><br>
+            <a href="https://colab.research.google.com/drive/1zUBbi-ecHLpTYjSRrEiAWDx1txFLhiTF" target="_blank"><b>COLAB FILE</b></a>
+        </nav>
+    </footer>
+</body>
+</html>
+
+
+
