@@ -7,6 +7,9 @@ Diabetes, is a group of metabolic disorders in which there are high blood sugar 
 This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective of the dataset is to diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements included in the dataset. Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage.
 
 
+![image](https://github.com/user-attachments/assets/c9e80cec-3ee1-441a-9505-c502ddb151c5)
+
+
 **Website Link :-** https://diabetes-project.glitch.me/
 
 **Objective**
@@ -14,13 +17,22 @@ We will try to build a machine learning model to accurately predict whether or n
 
 **Features**
 Pregnancies : Number of times a woman has been pregnant
+
 Glucose : Plasma Glucose concentration of 2 hours in an oral glucose tolerance test
+
 BloodPressure : Diastollic Blood Pressure (mm hg)
+
 SkinThickness : Triceps skin fold thickness(mm)
+
 Insulin : 2 hour serum insulin(mu U/ml)
+
 BMI : Body Mass Index ((weight in kg/height in m)^2)
+
 Age : Age(years)
+
 DiabetesPedigreeFunction : scores likelihood of diabetes based on family history)
+
+
 Outcome : 0(doesn't have diabetes) or 1 (has diabetes)
 
 
