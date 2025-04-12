@@ -13,9 +13,11 @@ This dataset is originally from the National Institute of Diabetes and Digestive
 **Website Link :-** https://diabetes-project.glitch.me/
 
 **Objective**
+
 We will try to build a machine learning model to accurately predict whether or not the patients in the dataset have diabetes or not?
 
 **Features**
+
 Pregnancies : Number of times a woman has been pregnant
 
 Glucose : Plasma Glucose concentration of 2 hours in an oral glucose tolerance test
@@ -37,9 +39,13 @@ Outcome : 0(doesn't have diabetes) or 1 (has diabetes)
 
 
 **Benefits**
+
 This diabetes prediction model offers several advantages:
 
 Early Detection: Identify people at high risk for diabetes, enabling earlier intervention.
+
 Improved Management: Help healthcare professionals tailor treatment plans based on risk.
+
 Reduced Costs: Early detection can potentially lower healthcare costs associated with diabetes.
+
 Increased Awareness: Raise awareness about diabetes risk factors and encourage healthier habits.
